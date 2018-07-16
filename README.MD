@@ -14,19 +14,28 @@ We are building ML model which can help us in order get an idea, whether a perso
 * jupyter notebook
 
 ## Installation Commands
-I'm working on Linux OS (Ubuntu 16.04 LTS) so command for installating all dependancies are given below.
 
+#### If using pip ->
 ```bash
 
-Pandas:           $ sudo pip install pandas
-numpy:            $ sudo pip install numpy
-scipy:            $ sudo pip install scipy
-scikit-learn:     $ sudo pip install -U scikit-learn
-matplotlib: 
-                  $ sudo apt-get install libfreetype6-dev libpng-dev
-                  $ sudo pip install matplotlib 
-seaborn:          $ sudo pip install seaborn
-jupyter notebook: $ sudo apt-get -y install ipython ipython-notebook
-                  $ sudo -H pip install jupyter
+Pandas:           - pip install pandas
+numpy:            - pip install numpy
+scipy:            - pip install scipy
+scikit-learn:     - pip install scikit-learn
+matplotlib:       - pip install matplotlib 
+seaborn:          - pip install seaborn
+jupyter notebook: - pip install jupyter
 
 ``` 
+#### If using anaconda ->
+```bash
+Pandas:           - conda install pandas
+numpy:            - conda install numpy
+scipy:            - conda install scipy
+scikit-learn:     - conda install scikit-learn
+matplotlib:       - conda install matplotlib 
+seaborn:          - conda install seaborn
+jupyter notebook: - conda install jupyter
+```
+
+### Dataset obtained from - https://github.com/jalajthanaki/credit-risk-modelling/tree/master/data
