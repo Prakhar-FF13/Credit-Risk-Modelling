@@ -1,12 +1,32 @@
-This is a Machine Learning Case study involving Credit Loans.
+# Credit Risk Modelling
 
-Training dataset - cs-training.csv
-Test dataset - cs-test.csv
-Data dictionary.xls contains information about the features of the dataset.
-sampleenrty is the output expected after solving the problem.
+We are building ML model which can help us in order get an idea, whether a person will be doing any default activity for his loan in next 2 year.
 
-Credit risk Modelling.ipynb file explains the problem in detail and how we have solved it.
+## Dependency Libraries
 
-Requirements -
-1. Python 3
-2. Libraries like numpy, pandas, seaborn, matplotlib, scipy, Jupyter Notebooks.
+* Python 3.x
+* pandas
+* numpy
+* scipy
+* scikit-learn
+* matplotlib
+* seaborn
+* jupyter notebook
+
+## Installation Commands
+I'm working on Linux OS (Ubuntu 16.04 LTS) so command for installating all dependancies are given below.
+
+```bash
+
+Pandas:           $ sudo pip install pandas
+numpy:            $ sudo pip install numpy
+scipy:            $ sudo pip install scipy
+scikit-learn:     $ sudo pip install -U scikit-learn
+matplotlib: 
+                  $ sudo apt-get install libfreetype6-dev libpng-dev
+                  $ sudo pip install matplotlib 
+seaborn:          $ sudo pip install seaborn
+jupyter notebook: $ sudo apt-get -y install ipython ipython-notebook
+                  $ sudo -H pip install jupyter
+
+``` 
